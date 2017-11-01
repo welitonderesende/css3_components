@@ -20,18 +20,19 @@ p,span,h1 {
     border-radius: 5px;
     background-color: white;
     box-shadow: 0px 6px 12px #BCE0FD;
+    animation: scaleout .5s forwards;
 }
 .ts-card-dashboard:hover {
-    animation: scaling .5s forwards;
+    animation: scalein .5s forwards;
 }
 
-@keyframes scaling {
-    from {
-        transform: translateY(0) scale(1);
-    }
-    to {
-        transform: translateY(-10px) scale(1.05);
-    }
+@keyframes scalein {
+    from {  transform: translateY(0) scale(1); }
+    to {    transform: translateY(-10px) scale(1.05); }
+}
+@keyframes scaleout {
+    from {    transform: translateY(-10px) scale(1.05); }
+    to {  transform: translateY(0) scale(1); }
 }
 
 .ts-card_title {
