@@ -1,0 +1,84 @@
+/**
+* ADDING ADDITIONAL body STYLING JUST FOR TEST
+* REMOVE BEFORE SEND TO PRODUCTION
+*/
+body {
+    background-color: #F1F9FF;
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+}
+
+p,span,h1 {
+    font-family: 'Fira sans';
+}
+.ts-card-dashboard { 
+    padding: 20px;
+    width: 255px;
+    height: 160px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 6px 12px #BCE0FD;
+}
+.ts-card-dashboard:hover {
+    animation: scaling .5s forwards;
+}
+
+@keyframes scaling {
+    from {
+        transform: translateY(0) scale(1);
+    }
+    to {
+        transform: translateY(-10px) scale(1.05);
+    }
+}
+
+.ts-card_title {
+    font-size: 24px;
+    margin: 0;
+    color: #2699FB;
+    font-weight: 400;
+}
+.ts-tag--client {
+    background-color: #BCE0FD;
+    border-radius: 5px;
+    width: 140px;
+    text-align: center;    
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.ts-client {
+   padding: 5px;
+   color: #2699FB;
+   font-weight: 400;
+   font-size: 12;
+}
+
+.ts-worked--hours,.ts-appointment--hours {
+    width: 120px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.ts-number--hours {
+    font-size: 44px;
+    color: #2699FB; 
+    font-weight: 200;   
+}
+.ts-label--hours {
+    color: #2699FB;
+    font-size: 14px;
+    font-weight: 200;
+}
+.ts-label--hours:last-of-type {
+    padding-left: 12px; 
+    width: 80%;
+}
+.ts-card--divisor {
+    height: 90px;
+    width: 2px;
+    margin-left: 5px;
+    background-color: #BCE0FD;
+    display: inline-block;
+}
