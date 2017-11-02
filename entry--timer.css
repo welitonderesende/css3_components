@@ -1,0 +1,87 @@
+/**
+* ADDING ADDITIONAL body STYLING JUST FOR TEST
+* REMOVE BEFORE SEND TO PRODUCTION
+*/
+body {
+    background-color: #F1F9FF;
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+}
+
+
+.ts-timer--field {
+    width: 1000px;
+    height: 60px;
+    border: 1px solid white;
+    box-shadow: 0px 6px 12px #BCE0FD;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+}
+
+.ts-input--time-desc {
+    width: 50%;
+    height: 100%;
+    border: none;
+    font-size: 22px;
+    font-family: 'Fira Sans';
+    padding: 0 0 0 10px;
+    display: inline-block;
+}
+
+.ts-input--timer-icons {
+    display: inline-block;
+}
+
+.ts-input--tag-icon {
+    font-size: 22px;
+    color: #2699FB;
+    padding: 10px;
+    animation: scaleout .2s forwards; 
+}
+
+.ts-input--tag-icon:hover {
+    animation: scalein .2s forwards;
+}
+
+@keyframes scalein {
+    from {  font-size: 22px; }
+    to {    font-size: 32px; }
+}
+@keyframes scaleout {
+    from {    font-size: 32px; }
+    to {  font-size: 22px; }
+}
+
+.ts-input--time-hours {
+    display: inline-block;
+}
+
+.ts-input--date,.ts-input--hour {
+    width: 100px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Fira Sans';
+    font-weight: 300;
+    color: #7FC4FD;
+}
+.ts-input--hour {
+    border: none;
+}
+
+.ts-input--add {
+    display: inline-block;
+}
+
+.ts-input--add-time-entry {
+    font-size: 40px;
+    font-weight: 300;    
+    color: #2699FB;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+    margin-left: 20px;
+
+}
