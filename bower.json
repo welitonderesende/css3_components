@@ -1,0 +1,20 @@
+{
+  "name": "css3_components",
+  "homepage": "https://github.com/welitonderesende/css3_components",
+  "authors": [
+    "Weliton de Resende <welitonderesende@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-icons": "^3.0.1"
+  }
+}
